@@ -1,0 +1,54 @@
+header, footer{
+    background-color: rgb(212, 192, 167);
+    text-align: center;
+    padding: 2rem;
+}
+
+main{
+    float:right;
+    width: 80%;
+}
+footer{
+ margin-top: 30rem;
+}
+body{
+    background-image: linear-gradient(#58638E, pink);
+  
+    
+}
+article{
+    padding: 1rem;
+    margin: 2rem;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px black;
+}
+.left, .middle, .right{
+    float: left;
+    width: 23%;
+}
+.right{
+    filter: blur(1px);
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+nav{
+    float: left;
+    margin-right: 1rem;
+    background-color: #da1748;
+    width: 18%;
+    
+
+}
+nav ul li{
+    padding: 1rem;
+    text-align: center;
+    border: 1px solid black;
+   
+    
+}
+article:hover{
+    transform: scale(1.1);
+}
